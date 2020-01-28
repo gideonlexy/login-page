@@ -1,38 +1,76 @@
-.App {
+.wrapper {
+  width: 840px;
+  margin: 0 auto;
+  
 
 }
-.wrapper {
-  width: 60%;
+header {
+  text-align: center;
+  
   padding: 20px;
-  margin: auto;
 }
-.header {
+header img {
+  height: 50px;
+  
+}
+a {
+  text-decoration: none;
+}
+.login {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
+  border-radius: 10px;
+}
+.login div {
+  flex: 1;
+}
+.dash {
+  padding-top: 6px;
+  border-top: 3px solid blue;
+}
+.left{
+  border-right: 2px solid #ddd;
+  margin-right: 30px;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  /* background: white; */
- margin-bottom: 20px;
 }
 .logo {
-  padding: 10px;
+  height: 200px;
 }
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
-  height: 400px;
-  background: white;
-  border-radius: 1.8%;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+.right {
+
 }
-.aside {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ input, button {
+  padding: 15px;
+  border: thin solid #ddd;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  border-radius: 40px;
 }
-.content {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
+button {
+  background-color: blue;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+.gray {
+  color: #888;
+}
+.form-group {
+  position: relative;
+
+}
+.form-group img {
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
 }
